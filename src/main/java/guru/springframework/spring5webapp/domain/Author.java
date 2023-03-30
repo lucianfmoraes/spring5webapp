@@ -12,7 +12,7 @@ import java.util.Set;
 @NoArgsConstructor
 @Entity
 @EqualsAndHashCode
-@Data
+@ToString
 public class Author {
 
     public Author(String firstName, String lastName){
