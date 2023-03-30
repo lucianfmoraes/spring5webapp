@@ -38,7 +38,9 @@ public class BootstrapData implements CommandLineRunner {
         authorRepository.save(rod);
         bookRepository.save(noEJB);
 
-        Publisher nyc = new Publisher("East 4th St",
+        Publisher nyc = new Publisher(
+                "New York Times",
+                "East 4th St",
                 50L, "New York City",
                 "NY", "10003"
         );
